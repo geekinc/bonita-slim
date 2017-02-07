@@ -1,0 +1,45 @@
+{
+    "name": "GEEKSystem",
+    "description": "GEEK API system",
+    "keywords": ["slimframework", "starter", "twig","doctrine", "bootstrap"],
+    "homepage": "http://geekinc.ca/",
+    "authors": [
+        {
+            "name": "Ben Inkster",
+            "email": "ben@geekinc.ca",
+            "homepage": "http://geekinc.ca/"
+        }
+    ],
+    "require-dev": {
+      "guzzlehttp/guzzle": "~6.0",
+      "symfony/css-selector": "dev-master"
+
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.5",
+        "slim/php-view": "^2.0",
+        "zircote/swagger-php": "^2.0",
+        "monolog/monolog": "^1.17",
+        "slim/twig-view": "^2.1",
+        "slim/http-cache": "^0.3.0",
+        "slim/pdo": "~1.9",
+        "tuupola/slim-basic-auth": "^2.2",
+        "slim/flash": "dev-master",
+        "doctrine/orm": "^2.5",
+        "symfony/dom-crawler": "^3.1",
+        "vlucas/phpdotenv": "^2.3",
+        "tuupola/slim-jwt-auth": "^2.3",
+        "dyorg/slim-token-authentication": "^0.3.2",
+        "phpoffice/phpexcel": "*",
+        "phpoffice/phpword": "*",
+        "phpmailer/phpmailer": "^5.2",
+        "setasign/fpdf": "1.8.1",
+        "setasign/fpdi": "1.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GEEK\\": "src"
+        }
+    }
+}

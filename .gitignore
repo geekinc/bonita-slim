@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+*~
+.DS_Store
+craft/storage/backups
+testselenium.xml
+testselenium.properties
+.idea
+.vagrant
+public/cookie-name
+src/data/temp/*
+vendor/
