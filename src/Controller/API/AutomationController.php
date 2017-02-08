@@ -20,9 +20,9 @@ class AutomationController extends \GEEK\Controller\AbstractController
         parent::__construct($app);
         $this->app = $app;
 
-        $this->bonitaServer = 'http://wgs.geekinc.ca:8080'; //$app['settings']['bonita']['server'];
-        $this->bonitaUser = 'walter.bates'; //$app['settings']['bonita']['user'];
-        $this->bonitaPassword = 'bpm'; //$app['settings']['bonita']['password'];
+        $this->bonitaServer = $app['settings']['bonita']['server'];
+        $this->bonitaUser = $app['settings']['bonita']['user'];
+        $this->bonitaPassword = $app['settings']['bonita']['password'];
     }
 
     public function startBonitaProcessWithVariables($userName, $password, $server, $processName, $variables)
